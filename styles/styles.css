@@ -251,3 +251,78 @@ section {
     background-color: #23263A;
 }
 
+#leftboxabout {
+    padding: 40px 15px;
+    padding-left: 60px;
+}
+
+#rightboxabout {
+    margin: 130px 100px;
+}
+
+.aboutme {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding-bottom: 10px;
+}
+
+.aboutpara {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+#namephone {
+    padding-top: 20px;
+    width: 80%;
+}
+
+#emaillinkedin {
+    padding: 20px 0;
+    width: 87%;
+}
+
+     /* skills stylessss */
+
+#skills {
+    background-color: #1F2235;
+}
+
+.skillstitle {
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 2px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 0.9;
+}
+
+.skillspara {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2.5;
+    letter-spacing: 1.5px;
+    padding-bottom: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.skillsbtn {
+    background-color: #24263B;    
+    border: 2px solid #FF4A57;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.rightin {
+    padding: 140px 300px 0px 60px;
+}
+    
