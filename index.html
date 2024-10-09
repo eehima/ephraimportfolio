@@ -7,338 +7,381 @@
     <title>Ephraim Portfolio</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/a7b9865d7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- header part -->
-    <header>
+    <header class="rowcontent">
         <div>
             <img src="./images/logo.png" alt="amike logo" id="brandLogo">
         </div>
 
         <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Blog">Blog</a></li>
-                <li><a href="#Contact">Contact</a></li>
+            <ul class="rowcontent">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#Services">Services</a></li>
+                <li class="nav-item"><a href="#About">About</a></li>
+                <li class="nav-item"><a href="#Skills">Skills</a></li>
+                <li class="nav-item"><a href="#Portfolio">Portfolio</a></li>
+                <li class="nav-item"><a href="#Blog">Blog</a></li>
+                <li class="nav-item"><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- main part -->
     <main>
-            <!-- Home part  -->
-        <section id="Home">
+        <!-- Home part  -->
+        <section id="home" class="rowcontent">
             <div id="leftbox">
                 <!-- social links -->
                 <div>
-                    <div class="socialicon">
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
-                    <div class="socialicon">
-                        <i class="fa-brands fa-twitter"></i>
-                    </div>
-                    <div class="socialicon">
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                    <div class="socialicon">
-                        <i class="fa-brands fa-github"></i>
-                    </div>
-                    <div class="socialicon">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </div>
-                    <div class="socialicon">
-                        <i class="fa-brands fa-snapchat"></i>
+                    <div class="rowcontent" id="icons">
+                        <div class="socialicon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="socialicon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="socialicon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="socialicon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="socialicon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="socialicon">
+                            <i class="fa-brands fa-snapchat"></i>
+                        </div>
                     </div>
                     <!-- text content  -->
-                    <h1>I am Ekojawe Ephraim</h1>
-                    <p>Ephraim, a software developer with short time experience</p>
+
+                    <h1 class="sectiontitle">I am Ekojawe Ephraim</h1>
+                    <p id="textcontent">Ephraim, a software developer with short time experience</p>
 
                     <!-- cta button  -->
                     <div>
-                        <button>Portfolio</button>
-                        <button><i class="fa-solid fa-play"></i></button>
+                        <button class="cta-button"> My Portfolio</button>
+                        <button class="download-button"><i class="fa-solid fa-play"></i></button>
                     </div>
                 </div>
 
             </div>
             <div id="rightbox">
-                <img src="./images/man-01.png" alt="Amike">
+                <img id="amike" src="./images/man-01.png" alt="Amike">
             </div>
         </section>
-          <!-- Services part  -->
+        <!-- Services part  -->
         <section id="Services">
-            <div id="topbox">
-                <p>Services</p>
-                <h2>My Services</h2>
-                <p>What I can do for you</p>
+            <div class=" colcontent">
+                <p class="smalltitle">SERVICES</p>
+                <h2 class="sectiontitle">My Services</h2>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem
+                    Ipsum standard dummy text.</p>
+                <hr class="divider">
             </div>
-            <hr>
-            <div id="bottombox">
+
+            <div id="bottombox" class="rowcontent">
                 <div class="service-card">
                     <i class="fa-brands fa-github"></i>
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi deleniti iusto pariatur porro.
-                        Possimus, molestiae totam! Voluptas, saepe repellendus quidem ea praesentium eaque omnis
-                        blanditiis, temporibus harum nostrum mollitia.</p>
+                        Possimus, molestiae totam! Voluptas, </p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-web-awesome"></i>
                     <h3>Web Design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi deleniti iusto pariatur porro.
-                        Possimus, molestiae totam! Voluptas, saepe repellendus quidem ea praesentium eaque omnis
-                        blanditiis, temporibus harum nostrum mollitia.</p>
+                        Possimus, molestiae totam! Voluptas, </p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-video"></i>
                     <h3>Video Editing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi deleniti iusto pariatur porro.
-                        Possimus, molestiae totam! Voluptas, saepe repellendus quidem ea praesentium eaque omnis
-                        blanditiis, temporibus harum nostrum mollitia.</p>
+                        Possimus, molestiae totam! Voluptas, </p>
                 </div>
                 <div class="service-card">
                     <i class="fa-solid fa-photo-film"></i>
                     <h3>Photography</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi deleniti iusto pariatur porro.
-                        Possimus, molestiae totam! Voluptas, saepe repellendus quidem ea praesentium eaque omnis
-                        blanditiis, temporibus harum nostrum mollitia.</p>
+                        Possimus, molestiae totam! Voluptas, </p>
                 </div>
                 <div class="service-card">
                     <i class="fa-brands fa-app-store"></i>
                     <h3>App Developing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi deleniti iusto pariatur porro.
-                        Possimus, molestiae totam! Voluptas, saepe repellendus quidem ea praesentium eaque omnis
-                        blanditiis, temporibus harum nostrum mollitia.</p>
+                        Possimus, molestiae totam! Voluptas, </p>
                 </div>
                 <div class="service-card">
                     <i class="fa-brands fa-searchengin"></i>
                     <h3>SEO Expart</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi deleniti iusto pariatur porro.
-                        Possimus, molestiae totam! Voluptas, saepe repellendus quidem ea praesentium eaque omnis
-                        blanditiis, temporibus harum nostrum mollitia.</p>
+                        Possimus, molestiae totam! Voluptas, </p>
                 </div>
             </div>
         </section>
-            <!-- About part  -->
-        <section id="About">
-            <div id="topbox">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto doloremque deleniti, quis provident
-                    quam, fuga enim minima consequatur nesciunt molestias esse quaerat nulla at consequuntur. Alias,
-                    natus? Blanditiis, expedita dolor!</p>
+        <!-- About part  -->
+        <section id="about">
+            <div id="topbox" class="colcontent">
+                <h2 class="sectiontitle">About Me</h2>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    standard dummy text.</p>
+                <hr class="divider">
             </div>
-            <hr>
-            <div>
-                <div id="leftbox">
+
+            <div class="rowcontent">
+                <div id="leftboxabout">
                     <img src="./images/amike 2.png" alt="amik">
                 </div>
-                <div id="rightbx">
-                    <h4>Hi There</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum atque quia error voluptas velit
-                        quibusdam, excepturi aliquam odit ex! Fugit dolorum ut asperiores unde mollitia dolorem
-                        laboriosam rerum iusto voluptatum.</p>
-                    <div id="namephone">
+                <div id="rightboxabout">
+                    <h4 class="aboutme">Hi There</h4>
+                    <p class="aboutpara">In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien
+                        faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies
+                        eros, ac porta sem turpis</p>
+                    <br>
+                    <p class="aboutpara">nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis porta
+                        sem turpis quis leo. Nulla in feugiat elit</p>
+
+                    <div id="namephone" class="rowcontent">
                         <div id="name">
-                            <h4>Name:</h4>
+                            <h4 class="smalltitle">Name:</h4>
                             <p>Ekojawe Ephraim</p>
                         </div>
                         <div id="phone">
-                            <h4>Phone:</h4>
+                            <h4 class="smalltitle">Phone:</h4>
                             <p>09090527183</p>
                         </div>
                     </div>
-                    <div id="emaillinkedin">
+                    <div id="emaillinkedin" class="rowcontent">
                         <div id="email">
-                            <h4>Email:</h4>
+                            <h4 class="smalltitle">Email:</h4>
                             <p>ehima87@gmail.com</p>
                         </div>
                         <div id="linkedin">
-                            <h4>LinkedIn:</h4>
+                            <h4 class="smalltitle">LinkedIn:</h4>
                             <p>ekojawe ephraim</p>
                         </div>
                     </div>
                 </div>
 
             </div>
-        
+
         </section>
         <!-- skills part  -->
-        <section id="Skills">
-            <div id="box"></div>
+        <section id="skills">
+            <div class="rowcontent">
                 <div id="leftin">
-                    <p>I'M EXPERT ON</p>
-                    <h3>Let's Work Together</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita odio culpa vel facere, quia
-                        totam sint eaque sapiente a illum vero, ducimus rem quidem, maiores incidunt vitae minima? Ipsa,
-                        architecto.</p>
+                    <p class="smalltitle">I'M EXPERT ON</p>
+                    <h3 class="skillstitle">Let's Work <br>Together</h3>
+                    <p class="skillpara">Phasellus accumsan scelerisque dolor, quis mattis justo <br>bibendum non. Nulla
+                        sollicitudin turpis in enim elementum <br>varius. Vestibulum ante ipsum primis in faucibus orci
+                        <br>luctus et ultrices posuere cubilia Curae
+                    </p>
                     <div>
-                        <button>Hire Me Now</button>
+                        <button class="cta-button ">Hire Me Now</button>
                     </div>
                 </div>
-                <div id="rightin">
-                    <h5>HTML</h5>
-                    <p>70%</p>
+                <div class="rightin">
+                    <div class="skillcard rowcontent ">
+                        <h5>HTML</h5>
+                        <div class="rate">
+                            <p class="rating">70%</p>
+                        </div>
+                    </div>
 
-                    <h5>CSS</h5>
-                    <p>20%</p>
+                    <div class="skillcard rowcontent ratecard cssskill">
+                        <h5>CSS</h5>
+                        <div class="rate">
+                            <p class="rating">20%</p>
+                        </div>
+                    </div>
 
-                    <h5>JS</h5>
-                    <p>10%</p>
+                    <div class="skillcard rowcontent ratecard">
+                        <h5>JS</h5>
+                        <div>
+                            <p class="rating">10%</p>
+                        </div>
+                    </div>
 
-                    <h5>PHP</h5>
-                    <p>10%</p>
+                    <div class="skillcard rowcontent ratecard">
+                        <h5>PHP</h5>
+                        <div>
+                            <p class="rating">10%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- portfolio part  -->
         <section id="Portfolio">
-            <div id="topboxskills"></div>
-                <h2>Portfolio<br>Showcase</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="colcontent">
+                <div class="portf">
+                    <h2 class="sectiontitle">Portfolio</h2>
+                    <h2 class="sectiontitle">Showcase</h2>
+                </div>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <hr class="divider">
             </div>
-            <hr>
-            <div id="buttons">
-                <button><a href="">All Work</a></button>
-                <button><a href="">All Direction</a></button>
+
+            <div class="portButton">
+                <button class="active"><a href="">All Works</a></button>
+                <button><a href="">Art Direction</a></button>
                 <button><a href="">Branding</a></button>
                 <button><a href="">Design</a></button>
                 <button><a href="">Web</a></button>
             </div>
-            <div>
-                <div id="leftpicture">
+            <div class="portfoliopics">
+                <div class="leftpicture">
                     <img src="./images/art.jpg" alt="">
                     <img src="./images/web.jpg" alt="">
                     <img src="./images/design.jpg" alt="">
                 </div>
-                <div id="centerpicture">
+                <div class="leftpicture">
                     <img src="./images/Brand.jpg" alt="">
                     <img src="./images/hand.jpg" alt="">
                 </div>
-                <div id="rightpicture">
+                <div class="leftpicture">
                     <img src="./images/mockup.jpg" alt="">
                     <img src="./images/efe.jpg" alt="">
                     <img src="./images/ehima.jpg" alt="">
                 </div>
             </div>
-                <!-- pricing plan part  -->
-            <div id="pricetopbox">
-                <p>CHOOSE A PLAN</p>
-                <h2>Pricing plan</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <!-- pricing plan part  -->
+            <div class="pricetopbox colcontent">
+                <p class="smalltitle">CHOOSE A PLAN</p>
+                <h2 class="sectiontitle">Pricing plan</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <hr class="divider">
             </div>
-            <div>
-                <div id="leftprice">
-                    <h5>Basic</h5>
-                    <h2>$50</h2>
-                    <P>5GB Storage Space</P>
-                    <hr>
-                    <P>20GB Monthly Bandwith</P>
-                    <hr>
-                    <P>My SQL Database</P>
-                    <hr>
-                    <P>100 Email Account</P>
-                    <hr>
-                    <P>10 Free Domain Names</P>
-                    <hr>
-                    <button>Purchase</button>
+            <div class="pricebox">
+                <div class="leftprice">
+                    <h3>Basic</h3>
+                    <h3 class="sectiontitle">$50</h3>
+                    <P class="amikep">5GB Storage Space</P>
+                    <hr class="divider1">
+                    <P class="amikep">20GB Monthly Bandwith</P>
+                    <hr class="divider1">
+                    <P class="amikep">My SQL Database</P>
+                    <hr class="divider1">
+                    <P class="amikep">100 Email Account</P>
+                    <hr class="divider1">
+                    <P class="amikep">10 Free Domain Names</P>
+                    <hr class="divider1">
+                    <button class="pricebtn">Purchase</button>
 
                 </div>
-                <div id="centerprice">
-                    <p>Recommended</p>
-                    <h5>Standard</h5>
-                    <h2>$80
-                    </h2>
-                    <P>5GB Storage Space</P>
-                    <hr>
-                    <P>20GB Monthly Bandwith</P>
-                    <hr>
-                    <P>My SQL Database</P>
-                    <hr>
-                    <P>100 Email Account</P>
-                    <hr>
-                    <P>10 Free Domain Names</P>
-                    <hr>
-                    <button>Purchase</button>
+                <div class="centerprice impor">
+                    <div class="recom">
+                        <h6>Recommended</h6>
+                    </div>
+                    <h3>Standard</h3>
+                    <h3 class="sectiontitle">$80
+                    </h3>
+                    <P class="amikep">5GB Storage Space</P>
+                    <hr class="divider1">
+                    <P class="amikep">20GB Monthly Bandwith</P>
+                    <hr class="divider1">
+                    <P class="amikep">My SQL Database</P>
+                    <hr class="divider1">
+                    <P class="amikep">100 Email Account</P>
+                    <hr class="divider1">
+                    <P class="amikep">10 Free Domain Names</P>
+                    <hr class="divider1">
+                    <button class="pricebtn">Purchase</button>
                 </div>
-                <div id="rightprice">
-                    <h5>Premium</h5>
-                    <h2>$160</h2>
-                    <P>5GB Storage Space</P>
-                    <hr>
-                    <P>20GB Monthly Bandwith</P>
-                    <hr>
-                    <P>My SQL Database</P>
-                    <hr>
-                    <P>100 Email Account</P>
-                    <hr>
-                    <P>10 Free Domain Names</P>
-                    <hr>
-                    <button>Purchase</button>
+                <div class="rightprice leftprice">
+                    <h3>Premium</h3>
+                    <h3 class="sectiontitle">$160</h3>
+                    <P class="amikep">5GB Storage Space</P>
+                    <hr class="divider1">
+                    <P class="amikep">20GB Monthly Bandwith</P>
+                    <hr class="divider1">
+                    <P class="amikep">My SQL Database</P>
+                    <hr class="divider1">
+                    <P class="amikep">100 Email Account</P>
+                    <hr class="divider1">
+                    <P class="amikep">10 Free Domain Names</P>
+                    <hr class="divider1">
+                    <button class="pricebtn">Purchase</button>
                 </div>
             </div>
 
             <!-- client part  -->
-            <div>
-                <br>
-                <div id="clientleft">
-                    <i class="fa-solid fa-person"></i>
-                    <h2>47</h2>
-                    <p>Clients</p>
+            <div class="clientbox">
+                <div class="clientleft">
+                    <i class="fa-solid fa-person people"></i>
+                    <h2 class="awards">47</h2>
+                    <p class="clientspara">Clients</p>
                 </div>
                 <div id="projectcenter">
-                    <i class="fa-solid fa-diagram-project"></i>
-                    <h2>64</h2>
-                    <p>Projects</p>
+                    <i class="fa-solid fa-diagram-project people"></i>
+                    <h2 class="awards">64</h2>
+                    <p class="clientspara">Projects</p>
                 </div>
                 <div id="awardscenter">
-                    <i class="fa-solid fa-award"></i>
-                    <h2>16</h2>
-                    <p>Awards</p>
+                    <i class="fa-solid fa-award people"></i>
+                    <h2 class="awards">16</h2>
+                    <p class="clientspara">Awards</p>
                 </div>
                 <div id="yearsexperienceright">
-                    <i class="fa-brands fa-github"></i>
-                    <h2>47</h2>
-                    <p>Years Experience</p>
+                    <i class="fa-brands fa-github people"></i>
+                    <h2 class="awards">10</h2>
+                    <p class="clientspara">Years Experience</p>
                 </div>
             </div>
 
             <!-- testimomial part  -->
-            <div>
+            <div class="testimonial rowcontent">
                 <div id="testimomialleft">
-                    <p>OUR TESTIMONIALS</p>
-                    <h2>Happy Cleints Says</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="smalltitle">OUR TESTIMONIALS</p>
+                    <h2 class="sectiontitle testi">Happy Clients <br>Says</h2>
+                    <p class="testipara">Phasellus accumsan scelerisque dolor, quis mattis justo varius. Vestibulum
+                        ante
+                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae </p>
+
+                    <p class="testipara">enim elementum varius. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere
+                    </p>
                     <div id="learnmorebutton">
-                        <button>Learn More</button>
+                        <button class="testibtn">Learn More</button>
                     </div>
 
                 </div>
-                <div id="testimomialright">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, commodi rerum ratione
-                        consectetur molestias exercitationem a possimus reiciendis qui odit inventore! Enim, ea officia?
-                        Odit esse est quia eveniet cumque.</p>
-                    <p>⭐⭐⭐⭐⭐</p>
-                </div>
-                <div id="nameimage">
-                    <div id="image">
-                        <img src="./images/me.jpg" alt="">
+                <div class="colcontent testimage">
+                    <div id="testimomialright">
+                        <p class="testim"> <i class="fa-solid fa-quote-right"></i> <br> "In promotion and of advertising
+                            testimonial show
+                            consiss of a person's written orsoken statement extollig the virtue" </p>
+                        <p>⭐⭐⭐⭐⭐</p>
                     </div>
-                    <div id="name">
-                        <h3>Ephraim</h3>
-                        <p>CEO</p>
-                    </div>
-                    <div id="nextprevbutton">
-                        <button><i class="fa-solid fa-angle-left"></i></button>
-                        <button><i class="fa-solid fa-angle-right"></i></button>
+                    <div class="nameimage">
+                        <div class="testiimage">
+                            <div class="image">
+                                <img src="./images/me.jpg" alt="" class="mage">
+                            </div>
+
+                            <div class="name">
+                                <h3 class="eko">Ephraim</h3>
+                                <p class="ehiz">CEO</p>
+                            </div>
+                        </div>
+                        <div class="nextprevbutton rowcontent">
+                            <button class="nextbtn"><i class="fa-solid fa-angle-left"></i></button>
+                            <button class="nextbtn"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- logos part -->
-            <div id="logos">
+            <div class="logos">
                 <img src="./images/logo1.png" alt="">
                 <img src="./images/logo2.png" alt="">
                 <img src="./images/logo3.png" alt="">
@@ -449,7 +492,9 @@
     <footer>
         <div id="footercenter">
             <img src="./images/footer 1.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aspernatur adipisci exercitationem et quo dolorum unde error natus, alias perspiciatis, molestias recusandae voluptate dolorem tenetur asperiores vero aperiam ea quod.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aspernatur adipisci exercitationem et quo
+                dolorum unde error natus, alias perspiciatis, molestias recusandae voluptate dolorem tenetur asperiores
+                vero aperiam ea quod.</p>
             <div id="footericon">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
