@@ -124,6 +124,7 @@ section {
     border-radius: 24px;
     font-weight: 500;
     font-size: 18px;
+    margin-top: 30px;
    
 }
 
@@ -172,6 +173,15 @@ section {
    margin-bottom: 30px;
    width: 60%;
     
+}
+
+.testipara {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    width: 75%;
+    padding-left: 5px;
 }
 .divider {
     border-color: #FF4A57;  
@@ -313,16 +323,292 @@ section {
 }
 
 .skillsbtn {
-    background-color: #24263B;    
-    border: 2px solid #FF4A57;
-    padding: 10px 20px;
-    border-radius: 24px;
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 40px;
+    margin-top:  40px;
 }
 
-.rightin {
-    padding: 140px 300px 0px 60px;
-}
+.skillcard {
+    border-bottom: #FF4A57 solid 4px;
+    width: 320px;
+    margin-bottom: 30px;
     
+}
+
+.cssskill {
+    width: 250px;
+}
+
+.ratecard {
+    margin-top: 10px;
+}
+
+.rating {
+    border: 2px solid white;
+    padding: 0px 3px;
+    margin-bottom: 4px;
+}
+.rightin {
+    padding: 100px 150px 200px 180px;
+}
+     
+
+     /* portfolio sectionnnsss hereeeee */
+
+#Portfolio {
+    background-color: #23263A;
+}
+
+.portf {
+    text-align: center;
+}
+
+.portButton {
+    align-items: center;
+    justify-content:center;
+    display: flex;  
+    padding: 30px;   
+}
+
+.portButton button {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    background-color: #24263B;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 24px;
+    margin-right: 10px;
+}
+
+.portButton button a {
+    text-decoration: none;
+    color: white;
+}
+
+.portButton button:hover {
+    background-color: #FF4A57;
+}
+
+.active a {
+    border: 2px solid #FF4A57;
+    border-radius: 24px;
+    padding: 10px 20px;
+}
+
+.portfoliopics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftpicture {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.leftpicture img {
+    border-radius: 14px;
+    margin-bottom: 25px;
+}
+
+
+   /* Princing plan stylesssss  */
+
+.pricetopbox {
+    padding-top: 120px;
+}
+
+.pricebox {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.leftprice {
+    background-color: #24263B;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;   
+}
+
+.centerprice {
+    background-color: #24263B;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.amikep {
+    padding: 10px;
+}
+
+.divider1 {
+    color: dimgray;
+    opacity: 0.2;
+}
+
+.pricebtn {
+    margin: 40px;
+    padding: 10px;
+    background-color: #24263B;
+    color: white;
+    border: 2px solid #FF4A57;
+    border-radius: 24px;
+    width: 70%;
+}
+
+.pricebtn:hover {
+    background-color: #FF4A57;
+}
+
+.recom {
+    background-color: #FF4A57;
+    padding: 2px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 4%;
+    width: 40% ;
+    margin-left: 95px;
+    /* padding-bottom: 30px; */
+}
+
+.impor {
+    border: 2px solid #FF4A57;
+    border-radius: 14px;
+    width: 300px;
+}
+   
+
+
+   /* Project Clients and Awards  */
+
+.clientbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+
+}
+
+.clentleft {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.people {
+    font-size: 55px;
+}
+
+.awards {
+    font-size: 55px;
+    color: #FF4A57;   
+}
+
+.clientspara {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+}
+
+.testimonial {
+    /* display: flex; */
+    padding-top: 180px;
+}
+
+.testi {
+    font-size: 60px;
+}
+
+.testibtn {
+    margin: 10px;
+    background-color: #24263B;
+    color: white;
+    border: 2px solid #FF4A57;
+    border-radius: 24px;
+    padding: 10px;
+    width: 25%;
+}
+.testim {
+    font-size: 15px;
+    font-size: 300;
+    padding-top: 40px;
+    width: 75%;
+}
+
+.testimage {
+    margin-left: 60px;
+}
+
+.testiimage {
+    padding-top: 10px;
+    padding-right: 270px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nameimage {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+ 
+.image {
+    padding: 10px;
+    margin-right: px;
+}
+
+.mage {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.eko {
+    padding: 4px;
+    padding-right: 2px ;
+}
+
+/* .position {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+} */
+
+.name {
+    margin-left: 4px;
+}
+
+.ehiz {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+}
+
+.logos {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logos img {
+  color: dimgray;
+  opacity: 0.2;
+  width: 80px;
+}
+
+.logos img:hover {
+    color: white;
+    opacity: 1;
+}
+
